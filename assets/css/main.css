@@ -8,8 +8,10 @@
 
 #section-1 {
     position: fixed;
-    width: 320px;
-    height: 1080px;
+    /*width: 320px;
+    height: 1080px;*/
+    width: 16.7vw;
+    height: 100vh;
     background-color: yellow;
 }
 
@@ -17,9 +19,12 @@
 
 #section-2 {
     position: absolute;
-    margin: 127.43px 0 0 320px;
+    /*margin: 127.43px 0 0 320px;
     width: 1600px;
-    height: 952.57px;
+    height: 952.57px;*/
+    margin: 11.8vh 0 0 16.7vw;
+    width: 83.3vw;
+    height: 88.2vh;
     background-color: blue;
 
 }
@@ -28,9 +33,12 @@
 
 #section-3 {
     position: fixed;
-    margin: 0 0 0 320px;
+    /*margin: 0 0 0 320px;
     width: 1600px;
-    height: 127.43px;
+    height: 127.43px;*/
+    margin: 0 0 0 16.7vw;
+    width: 83.3vw;
+    height: 11.8vh;
     background-color: red;
 }
 
