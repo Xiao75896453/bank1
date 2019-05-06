@@ -25,8 +25,758 @@
     margin: 11.8vh 0 0 16.7vw;
     width: 83.3vw;
     height: 88.2vh;
-    background-color: blue;
+}
 
+.S2row{
+    width: 100%;
+    margin: 50px;
+}
+#S2A{
+}
+#S2B{
+
+}
+#S2C{
+    background-color: violet;
+}
+#S2D{
+
+}
+.S2topic{
+    text-align: center;
+}
+
+#S2Arow1{
+    position: relative;
+    height: 50px;
+}
+#S2Arow1 p{
+    float: left;
+}
+.S2A1item{
+    float: left;
+    width: 25%;
+    height: 100%;
+    margin: 0;
+}
+
+#S2Arow2{
+    position: relative;
+    height: 400px;
+}
+.S2A2colume{
+    height: 100%;
+    margin: 0;
+}
+#S2A2colume1{
+    float: left;
+    width: 60%;
+}
+#S2A2colume2{
+    float: left;
+    width: 33.34%;
+}
+.S2A2item{
+    margin: 0.5%;
+    float: left;
+    height: 48%;
+    width: 23%;
+    box-shadow: 1px 0px 5px rgb(226, 225, 225),
+                -1px 0px 5px rgb(226, 225, 225),
+                0px 1px 5px rgb(226, 225, 225),
+                0px -1px 5px rgb(226, 225, 225);
+}
+.S2AAicon{
+    float: left;
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+}
+.S2A2title{
+    float: left;
+    width: 50%;
+    height: 20%;
+    margin: 10px;
+    font-size: 30px;
+    color: rgb(104, 103, 103);
+}
+.S2A2content{
+    float: left;
+    width: 100%;
+    height: 80%;
+    text-align: center;
+    padding: 30px 0 0 0;
+    margin: 0;
+    font-size: 40px;
+    font-weight: 900;
+}
+.S2A2item1{
+    margin: 1%;
+    float: left;
+    height: 98%;
+    width: 48%;
+    box-shadow: 1px 0px 5px rgb(226, 225, 225),
+                -1px 0px 5px rgb(226, 225, 225),
+                0px 1px 5px rgb(226, 225, 225),
+                0px -1px 5px rgb(226, 225, 225);
+}
+
+#S2Arow3{
+    position: relative;
+    width: 93%;
+    height: 200px;
+    box-shadow: 1px 0px 5px rgb(226, 225, 225),
+                -1px 0px 5px rgb(226, 225, 225),
+                0px 1px 5px rgb(226, 225, 225),
+                0px -1px 5px rgb(226, 225, 225);
+}
+.S2A3colume{
+    float: left;
+    height: 100%;
+}
+#S2A3colume1{
+    width: 16.665%;
+}
+#S2A3colume2{
+    width: 33.33%;
+}
+#S2A3colume3{
+    width: 8.3325%;
+}
+#S2A3colume4{
+    width: 8.3325%;
+}
+#S2A3colume5{
+    width: 16.66%;
+}
+#S2A3colume6{
+    width: 16.66%;
+}
+
+
+#S2Arow4{
+    height: 300px;
+    width: 93%;
+    box-shadow: 1px 0px 5px rgb(226, 225, 225),
+                -1px 0px 5px rgb(226, 225, 225),
+                0px 1px 5px rgb(226, 225, 225),
+                0px -1px 5px rgb(226, 225, 225);
+}
+#S2Arow4 p{
+    float: left;
+    text-align: center;
+    border: black;
+}
+.S2A4colume{
+    float: left;
+    height: 100%;
+}
+#S2A4colume1{
+    width: 10%;
+}
+#S2A4colume2{
+    width: 35%;
+}
+#S2A4colume3{
+    width: 10%;
+}
+#S2A4colume4{
+    width: 20%;
+}
+#S2A4colume5{
+    width: 10%;
+}
+#S2A4colume6{
+    width: 15%;
+}
+.S2A4title1{
+    width: 100%;
+}
+.S2A4title2{
+    width: 50%;
+}
+.S2A4title3{
+    width: 33.33%;
+}
+.S2A4content1{
+    width: 100%;
+}
+.S2A4content2{
+    width: 50%;
+}
+.S2A4content3{
+    width: 33.33%;
+}
+
+#S2Brow1{
+    height: 50px;
+}
+.S2B1item{
+    float: left;
+    width: 25%;
+}
+.S2B1item p{
+    float: left;
+}
+
+#S2Brow2{
+    height: 200px;
+    width: 93%;
+    box-shadow: 1px 0px 5px rgb(226, 225, 225),
+                -1px 0px 5px rgb(226, 225, 225),
+                0px 1px 5px rgb(226, 225, 225),
+                0px -1px 5px rgb(226, 225, 225);
+}
+.S2B2item{
+    float: left;
+    height: 100%;
+    margin: 0;
+}
+#S2B201{
+    width: 15%;    
+}
+#S2B202{
+    width: 15%;    
+}
+#S2B203{
+    width: 15%;    
+}
+#S2B204{
+    width: 45%;    
+}
+
+#S2Brow3{
+    height: 150px;    
+}
+.S2B3colume{
+    float: left;
+    width: 15%;
+    margin: 0;
+}
+.S2B3title{
+    float: left;
+    margin: 0 20px 0 0;
+}
+.S2B3text{
+    float: left;
+    width: 40%;
+    margin: 0;
+}
+.S2B3checkbox{
+    width: 30px;
+    height: 30px;
+}
+
+#S2Brow4{
+    height: 300px;
+    width: 93%;
+    box-shadow: 1px 0px 5px rgb(226, 225, 225),
+                -1px 0px 5px rgb(226, 225, 225),
+                0px 1px 5px rgb(226, 225, 225),
+                0px -1px 5px rgb(226, 225, 225);
+}
+#S2Brow4 p{
+    float: left;
+    text-align: center;
+}
+.S2B4colume{
+    float: left;
+    height: 100%;
+}
+#S2B4colume1{
+    width: 10%;
+}
+#S2B4colume2{
+    width: 35%;
+}
+#S2B4colume3{
+    width: 10%;
+}
+#S2B4colume4{
+    width: 20%;
+}
+#S2B4colume5{
+    width: 10%;
+}
+#S2B4colume6{
+    width: 15%;
+}
+.S2B4title1,.S2B4content1{
+    width: 100%;
+}
+.S2B4title2,.S2B4content2{
+    width: 50%;
+}
+.S2B4title3,.S2B4content3{
+    width: 33.33%;
+}
+
+#S2Brow5{
+    height: 200px;
+    width: 93%;
+    box-shadow: 1px 0px 5px rgb(226, 225, 225),
+                -1px 0px 5px rgb(226, 225, 225),
+                0px 1px 5px rgb(226, 225, 225),
+                0px -1px 5px rgb(226, 225, 225);
+}
+.S2B5colume{
+    float: left;
+    height: 100%;
+    width: 11%;
+}
+.S2B5colume p{
+    height: 33.33%;
+    margin: 0;
+}
+
+#S2Brow6{
+    height: 300px;
+    width: 93.5%;
+}
+.S2B6colume{
+    float: left;
+    height: 100%;
+}
+#S2B6colume1{
+    width: 40%;
+}
+#S2B6colume2{
+    width: 60%;
+}
+#S2B601,#S2B603{
+    float: left;
+    width: 48%;
+    height: 48%;
+    margin: 1% 1% 1% 0;
+    box-shadow: 1px 0px 5px rgb(226, 225, 225),
+                -1px 0px 5px rgb(226, 225, 225),
+                0px 1px 5px rgb(226, 225, 225),
+                0px -1px 5px rgb(226, 225, 225);
+}
+#S2B602,#S2B604{
+    float: left;
+    width: 48%;
+    height: 48%;
+    margin: 1%;
+    box-shadow: 1px 0px 5px rgb(226, 225, 225),
+                -1px 0px 5px rgb(226, 225, 225),
+                0px 1px 5px rgb(226, 225, 225),
+                0px -1px 5px rgb(226, 225, 225);
+}
+.S2B6item1{
+    float: left;
+    width: 31.33%;
+    height: 98%;
+    margin: 1%;
+    box-shadow: 1px 0px 5px rgb(226, 225, 225),
+                -1px 0px 5px rgb(226, 225, 225),
+                0px 1px 5px rgb(226, 225, 225),
+                0px -1px 5px rgb(226, 225, 225);
+}
+
+#S2Brow7{
+    height: 200px;
+    width: 93%;
+    box-shadow: 1px 0px 5px rgb(226, 225, 225),
+                -1px 0px 5px rgb(226, 225, 225),
+                0px 1px 5px rgb(226, 225, 225),
+                0px -1px 5px rgb(226, 225, 225);
+}
+.S2B7item{
+    width: 100%;
+    height: 50%;
+    
+}
+.S2B7title{
+    float: left;
+    width: 15%;
+    height: 100%;
+    margin: 0;
+}
+.S2B7content{
+    float: left;
+    width: 85%;
+    height: 100%;
+    margin: 0;
+}
+
+#S2Brow8{
+    height: 600px;
+    width: 93%;
+    
+}
+.S2B8colume{
+    float: left;
+    height: 33.33%;
+}
+#S2B8colume1,#S2B8colume3,#S2B8colume4{
+    width: 20%;
+}
+#S2B8colume2,#S2B8colume5{
+    width: 10%;
+}
+.S2B8colume p,.S2B8colume input{
+    float: left;
+}
+
+.S2B8colume p{
+    margin: 0 20px 0 0;
+}
+#S2B8colume1 input{
+    width: 40%;
+}
+#S2B8colume2 p{
+    width: 30%;
+}
+.S2B8checkbox{
+    width: 30px;
+    height: 30px;
+    margin: 0 30% 43px 0px;
+}
+#S2B8colume3 p{
+    width: 30%;
+}
+#S2B8colume3 input{
+    width: 40%;
+    margin: 0 0 30px 0;
+}
+#S2B8colume4 p{
+    width: 30%;
+}
+#S2B8colume4 input{
+    width: 40%;
+    margin: 0 0 30px 0;
+}
+.S2B8section1,.S2B8section2{
+    float: left;
+    height: 50%;
+}
+.S2B8section1{
+    width: 40%;
+}
+.S2B8section2{
+    width: 60%;
+}
+.S2B8item{
+    float: left;
+    height: 50%;
+    width: 50%;
+    box-shadow: 1px 0px 5px rgb(226, 225, 225),
+                -1px 0px 5px rgb(226, 225, 225),
+                0px 1px 5px rgb(226, 225, 225),
+                0px -1px 5px rgb(226, 225, 225);
+}
+.S2B8item1{
+    float: left;
+    height: 98%;
+    width: 31.33%;
+    margin: 1%;
+    box-shadow: 1px 0px 5px rgb(226, 225, 225),
+                -1px 0px 5px rgb(226, 225, 225),
+                0px 1px 5px rgb(226, 225, 225),
+                0px -1px 5px rgb(226, 225, 225);
+}
+#S2B801,#S2B803{
+    float: left;
+    width: 48%;
+    height: 48%;
+    margin: 1% 1% 1% 0;
+}
+#S2B802,#S2B804{
+    float: left;
+    width: 48%;
+    height: 48%;
+    margin: 1%;
+}
+.S2B8section3{
+    float: left;
+    height: 16.67%;
+    width: 100%;
+    margin: 60px 0 0 0;
+}
+.S2B83title{
+    float: left;
+    height: 30%;
+    margin: 0 3% 0 0;
+}
+.S2B83content{
+    float: left;
+    height: 30%;
+    width: 50%;
+    margin: 0;
+}
+.S2B83text{
+    float: left;
+    height: 30%;
+    width: 30%;
+    margin: 0 3% 0 0;
+}
+.S2B83item2{
+    float: left;
+    height: 100%;
+}
+#S2B808,#S2B809,#S2B811{
+    width: 10%;
+}
+#S2B810{
+    width: 30%;
+}
+
+#S2Brow9{
+    height: 400px;
+    width: 93%;
+    box-shadow: 1px 0px 5px rgb(226, 225, 225),
+                -1px 0px 5px rgb(226, 225, 225),
+                0px 1px 5px rgb(226, 225, 225),
+                0px -1px 5px rgb(226, 225, 225);
+}
+.S2B9title{
+    float: left;
+    height: 100%;
+    width: 5%;
+    margin: 5px 0 0 0;
+}
+.S2B9text{
+    float: left;
+    width: 93%;
+    margin: 5px 0 0 0;
+    height: 93%;
+    
+}
+#S2Drow1{
+    height: 200px;
+    width: 93%;
+    box-shadow: 1px 0px 5px rgb(226, 225, 225),
+                -1px 0px 5px rgb(226, 225, 225),
+                0px 1px 5px rgb(226, 225, 225),
+                0px -1px 5px rgb(226, 225, 225);
+}
+.S2D1colume{
+    float: left;
+    height: 100%;
+}
+.S2D1colume p{
+    text-align: center;
+}
+#S2D1colume1,#S2D1colume2,#S2D1colume5,#S2D1colume6{
+    width: 10%;
+}
+#S2D1colume3,#S2D1colume4{
+    width: 30%
+}
+.S2D1title1,.S2D1content1{
+    width: 100%;
+    margin: 0;
+}
+.S2D1title1{
+    height: 30%;
+}
+.S2D1content1{
+    height: 70%;
+}
+.S2D1title4,.S2D1content4{
+    float: left;
+    width: 25%;
+    height: 35%;
+}
+.S2D1title3,.S2D1content3{
+    float: left;
+    width: 33.33%;
+    height: 35%;
+}
+
+#S2Drow2{
+    height: 200px;
+    width: 93%;
+    box-shadow: 1px 0px 5px rgb(226, 225, 225),
+                -1px 0px 5px rgb(226, 225, 225),
+                0px 1px 5px rgb(226, 225, 225),
+                0px -1px 5px rgb(226, 225, 225);
+}
+.S2D2colume{
+    float: left;
+    height: 100%;
+    width: 11%;
+}
+.S2D2title,.S2D2content{
+    height: 33.33%;
+    width: 100%;
+    margin: 0;
+}
+.S2D2content1{
+    height: 66.66%;
+}
+
+#S2Drow3{
+    height: 300px;
+    width: 97%;
+}
+.S2D3colume{
+    float: left;
+    height: 83%;
+    margin: 0 1% 0 0;
+    box-shadow: 1px 0px 5px rgb(226, 225, 225),
+                -1px 0px 5px rgb(226, 225, 225),
+                0px 1px 5px rgb(226, 225, 225),
+                0px -1px 5px rgb(226, 225, 225);
+}
+#S2D3colume1{
+    width: 12%;
+}
+#S2D3colume2{
+    width: 38%;
+}
+#S2D3colume3{
+    width: 21.5%;
+}
+#S2D3colume4{
+    width: 21.5%;
+}
+.S2D3colume p,.S2D3colume input{
+    float: left;
+    margin: 20px 0 0 1%;
+}
+.S2D3unit{
+    width: 5%;
+    height: 60%;
+}
+#S2D3colume1 .S2D3title{
+    width: 45%;
+}
+#S2D3colume1 input{
+    width: 45%;
+}
+#S2D3colume2 .S2D3title{
+    width: 60%;
+}
+#S2D3colume2 input{
+    width: 30%;
+}
+#S2D3colume3 .S2D3title{
+    width: 45%;
+}
+#S2D3colume3 input{
+    width: 45%;
+}
+#S2D3colume4 .S2D3title{
+    width: 45%;
+    height: 60%;
+}
+#S2D3colume4 input{
+    width: 45%;
+    height: 60%;
+}
+.S2D3item2{
+    height: 50%;
+    width: 100%;
+}
+.S2D3item3{
+    height: 33.33%;
+    width: 100%;
+}
+.S2D3section{
+    float: left;
+    height: 17%;
+    padding: 20px 0 0 0;
+}
+#S2D310{
+    width: 20%;
+}
+#S2D310 p{
+    float: left;
+}
+
+#S2Drow4{
+    width: 93%;
+}
+#S2D4section1{
+    height: 50px;
+}
+#S2D4section2{
+    height: 100px;
+    box-shadow: 1px 0px 5px rgb(226, 225, 225),
+                -1px 0px 5px rgb(226, 225, 225),
+                0px 1px 5px rgb(226, 225, 225),
+                0px -1px 5px rgb(226, 225, 225);
+}
+.S2D42colume{
+    float: left;
+    height: 100%;
+}
+#S2D42colume1,#S2D42colume4,#S2D42colume5{
+    width: 17%;
+}
+#S2D42colume2,#S2D42colume3,#S2D42colume6,#S2D42colume7,#S2D42colume8{
+    width: 9%;
+}
+.S2D42colume p{
+    float: left;
+    margin: 30px 5% 0 0;
+}
+.S2D42colume .S2D42text{
+    float: left;
+    width: 45%;
+    margin: 30px 0 0 0;
+}
+.S2D42colume .S2D42checkbox{
+    float: left;
+    width: 45%;
+    height: 40%;
+    margin: 30px 0 0 0;
+}
+#S2D4section3{
+    height: 250px;
+    box-shadow: 1px 0px 5px rgb(226, 225, 225),
+                -1px 0px 5px rgb(226, 225, 225),
+                0px 1px 5px rgb(226, 225, 225),
+                0px -1px 5px rgb(226, 225, 225);
+}
+.S2D43colume{
+    float: left;
+}
+#S2D43colume1{
+    width: 10%;
+}
+#S2D43colume2{
+    width: 5%;
+}
+#S2D43colume3{
+    width: 25%;
+}
+#S2D43colume4{
+    width: 25%;
+}
+#S2D43colume5{
+    width: 15%;
+}
+.S2D43{
+    width: 100%;
+    height: 20%;
+}
+.S2D4310{
+    float: left;
+    width: 10%;
+    height: 20%;
+}
+.S2D4325{
+    float: left;
+    width: 25%;
+    height: 20%;
+}
+.S2D4340{
+    float: left;
+    width: 40%;
+    height: 20%;
+}
+.S2D4350{
+    float: left;
+    width: 50%;
+    height: 20%;
+}
+.S2D4375{
+    float: left;
+    width: 75%;
+    height: 20%;
 }
 
 /* section-3 */
