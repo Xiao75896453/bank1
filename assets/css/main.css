@@ -725,14 +725,22 @@
     margin: 30px 0 0 0;
 }
 #S2D4section3{
-    height: 250px;
+    height: 440px;
     box-shadow: 1px 0px 5px rgb(226, 225, 225),
                 -1px 0px 5px rgb(226, 225, 225),
                 0px 1px 5px rgb(226, 225, 225),
                 0px -1px 5px rgb(226, 225, 225);
+    padding: 20px;
 }
 .S2D43colume{
     float: left;
+    height: 100%;
+    margin: 0;
+}
+.S2D43colume p,.S2D43colume select,.S2D43colume input{
+    float: left;
+    margin: 20px 0 0 0;
+    height: 60px;
 }
 #S2D43colume1{
     width: 10%;
@@ -747,38 +755,41 @@
     width: 25%;
 }
 #S2D43colume5{
-    width: 15%;
+    width: 25%;
 }
 .S2D43{
     width: 100%;
-    height: 20%;
 }
 .S2D4310{
-    float: left;
     width: 10%;
-    height: 20%;
 }
 .S2D4325{
-    float: left;
     width: 25%;
-    height: 20%;
 }
 .S2D4340{
-    float: left;
     width: 40%;
-    height: 20%;
 }
 .S2D4350{
-    float: left;
     width: 50%;
-    height: 20%;
 }
 .S2D4375{
-    float: left;
     width: 75%;
-    height: 20%;
 }
-
+.S2D4333{
+    width: 33%;
+}
+.S2D4308{
+    width: 8%;
+}
+.S2D4315{
+    width: 15%;
+}
+.S2D4360{
+    width: 60%;
+}
+.S2D4305{
+    width: 5%;
+}
 /* section-3 */
 
 #section-3 {
