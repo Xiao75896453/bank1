@@ -881,21 +881,21 @@
 
 .S3r2item1{
     position:absolute;
-    left:0px;
+    left:80px;
   width:80px;
   float:left;
 }
 
 .S3r2item2{
     position:absolute;
-    left:130px;
+    left:150px;
   width:80px;
   float:left;
 }
 
 .S3r2item3{
     position:absolute;
-    left:210px;
+    left:220px;
   width:80px;
   float:left;
 }
@@ -909,38 +909,18 @@
 
 .S3r2item5{
     position:absolute;
-    left:370px;
+    left:360px;
   width:80px;
   float:left;
 }
 
 .S3r2item6{
     position:absolute;
-    left:450px;
+    left:430px;
   width:80px;
   float:left;
 }
 
-.S3r2item7{
-    position:absolute;
-    left:530px;
-  width:80px;
-  float:left;
-}
-
-.S3r2item8{
-    position:absolute;
-    left:610px;
-  width:80px;
-  float:left;
-}
-
-.S3r2item9{
-    position:absolute;
-    left:690px;
-  width:80px;
-  float:left;
-}
 
 
 
