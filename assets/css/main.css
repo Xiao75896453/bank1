@@ -817,42 +817,58 @@
 }
 
 .S3r1item1{
+    position:absolute;
     width:130px;
+    left:0px;
   height:100%;
   float:left;
 }
 
 .S3r1item2{
+    position:absolute;
+    left:130px;
   width:30px;
   float:left;
 }
 
 .S3r1item3{
+     position:absolute;
+    left:190px;
   width:120px;
   float:left;
 }
 
 .S3r1item4{
+    position:absolute;
+    left:310px;
   width:80px;
   float:left;
 }
 
 .S3r1item5{
+    position:absolute;
+    left:390px;
   width:80px;
   float:left;
 }
 
 .S3r1item6{
+    position:absolute;
+    left:470px;
   width:80px;
   float:left;
 }
 
 .S3r1item7{
+    position:absolute;
+    left:550px;
   width:80px;
   float:left;
 }
 
 .S3r1item8{
+    position:absolute;
+    left:630px;
   width:80px;
   float:left;
 }
@@ -863,46 +879,64 @@
 }
 
 .S3r2item1{
+    position:absolute;
+    left:0px;
   width:80px;
   float:left;
 }
 
 .S3r2item2{
+    position:absolute;
+    left:130px;
   width:80px;
   float:left;
 }
 
 .S3r2item3{
+    position:absolute;
+    left:210px;
   width:80px;
   float:left;
 }
 
 .S3r2item4{
+    position:absolute;
+    left:290px;
   width:80px;
   float:left;
 }
 
 .S3r2item5{
+    position:absolute;
+    left:370px;
   width:80px;
   float:left;
 }
 
 .S3r2item6{
+    position:absolute;
+    left:450px;
   width:80px;
   float:left;
 }
 
 .S3r2item7{
+    position:absolute;
+    left:530px;
   width:80px;
   float:left;
 }
 
 .S3r2item8{
+    position:absolute;
+    left:610px;
   width:80px;
   float:left;
 }
 
 .S3r2item9{
+    position:absolute;
+    left:690px;
   width:80px;
   float:left;
 }
