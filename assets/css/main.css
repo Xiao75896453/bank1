@@ -819,14 +819,15 @@
 .S3r1item1{
     position:absolute;
     width:130px;
-    left:0px;
+    left:20px;
   height:100%;
   float:left;
 }
 
 .S3r1item2{
     position:absolute;
-    left:130px;
+    left:150px;
+    top:-5px;
   width:30px;
   float:left;
 }
@@ -840,35 +841,35 @@
 
 .S3r1item4{
     position:absolute;
-    left:310px;
+    left:300px;
   width:80px;
   float:left;
 }
 
 .S3r1item5{
     position:absolute;
-    left:390px;
+    left:370px;
   width:80px;
   float:left;
 }
 
 .S3r1item6{
     position:absolute;
-    left:470px;
+    left:440px;
   width:80px;
   float:left;
 }
 
 .S3r1item7{
     position:absolute;
-    left:550px;
+    left:510px;
   width:80px;
   float:left;
 }
 
 .S3r1item8{
     position:absolute;
-    left:630px;
+    left:580px;
   width:80px;
   float:left;
 }
