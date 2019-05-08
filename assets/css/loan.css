@@ -1,0 +1,124 @@
+.loanTitle {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.loanTitle h1 {
+    font-size: 2.5rem;
+    /* font-weight: 1200; */
+    font-family: 'Microsoft YaHei', 'Microsoft JhengHei';
+}
+
+#Doc-Loan {
+    padding: 2% 5% 2% 1%;
+}
+
+.doc-loan p {
+    font-size: 1.4rem;
+    /* font-weight: 1200; */
+    font-family: 'Microsoft JhengHei';
+}
+
+.doc-loan p,
+.doc-loan th,
+.doc-loan td {
+    letter-spacing: 2px;
+}
+
+.lnBox-title {
+    font-weight: bolder;
+}
+
+.flexContainer {
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+wrap {
+    flex-wrap: wrap;
+}
+
+nowrap {
+    flex-wrap: nowrap;
+}
+
+.loanTextbox {
+    width: 33%;
+    /* border-style: solid; */
+}
+
+.lnBox-discription p {
+    font-size: 1.2rem;
+}
+
+.lnBox-discription {
+    margin-left: 2.5rem;
+}
+
+
+/* PART - 核貸書 */
+
+#lnMoney {
+    padding: 0.3rem 1rem 0.3rem 1rem;
+    margin-bottom: 2rem;
+}
+
+#lnMoney .lnBox-title {
+    margin-bottom: 0rem;
+}
+
+#lnMoney .lnBox-discription p {
+    margin-top: 0.2rem;
+    font-size: 1.4rem;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.loanTextbox .name {
+    margin: 0.2rem 0 0 2.5rem;
+}
+
+.loanTextbox .name p {
+    font-size: 1.5rem;
+}
+
+
+/* .tb-money .table-striped tbody tr {
+    background: rgba(0, 0, 0, 0)
+} */
+
+.tb-money tbody tr:nth-of-type(1) {
+    background: rgb(237, 236, 245);
+}
+
+.tb-money tbody tr:nth-of-type(2) {
+    background: rgb(244, 247, 243);
+}
+
+.table th,
+.table td {
+    text-align: center;
+    vertical-align: middle;
+    /* line-height: 100%; */
+}
+
+.gradientDiv p {
+    color: white;
+}
+
+.gradientDiv {
+    background: rgb(62, 104, 153);
+    /* Old browsers */
+    background: -moz-linear-gradient(left, rgba(62, 104, 153, 1) 0%, rgba(125, 185, 232, 1) 40%, rgba(255, 255, 255, 1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, rgba(62, 104, 153, 1) 0%, rgba(125, 185, 232, 1) 40%, rgba(255, 255, 255, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, rgba(62, 104, 153, 1) 0%, rgba(125, 185, 232, 1) 40%, rgba(255, 255, 255, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#3e6899', endColorstr='#ffffff', GradientType=1);
+    /* IE6-9 */
+}
