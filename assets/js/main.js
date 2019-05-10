@@ -956,5 +956,8 @@ if ($("#S2A").width() > 400) {
 
 /*section-3*/
 
+$("#S3r1i8").click(function() {
+    $("#S3row2").slideToggle("slow");
+});
 
 /*section-4*/
