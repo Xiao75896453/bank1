@@ -1,17 +1,19 @@
-.loanTitle {
+.docTitle {
     width: 100%;
     text-align: center;
     margin-bottom: 1rem;
 }
 
-.loanTitle h1 {
-    font-size: 2.5rem;
+.docTitle h1 {
+    font-size: 36px;
+    font-weight: 900;
+    /* font-size: 2.5rem; */
     /* font-weight: 1200; */
-    font-family: 'Microsoft YaHei', 'Microsoft JhengHei';
+    /* font-family: 'Microsoft YaHei', 'Microsoft JhengHei'; */
 }
 
 #Doc-Loan {
-    padding: 2% 5% 2% 1%;
+    padding: 2% 0.5% 2% 1%;
 }
 
 .doc-loan p {
@@ -28,6 +30,17 @@
 
 .lnBox-title {
     font-weight: bolder;
+}
+
+.ln-partTitle p {
+    font-weight: bolder;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.ln-shrink {
+    display: inline-block;
+    cursor: pointer;
 }
 
 .flexContainer {
@@ -86,39 +99,128 @@ nowrap {
     font-size: 1.5rem;
 }
 
-
-/* .tb-money .table-striped tbody tr {
-    background: rgba(0, 0, 0, 0)
-} */
-
-.tb-money tbody tr:nth-of-type(1) {
-    background: rgb(237, 236, 245);
+.tb-container {
+    /* width: 93%; */
+    box-shadow: 1px 0px 5px rgb(226, 225, 225), -1px 0px 5px rgb(226, 225, 225), 0px 1px 5px rgb(226, 225, 225), 0px -1px 5px rgb(226, 225, 225);
 }
 
-.tb-money tbody tr:nth-of-type(2) {
-    background: rgb(244, 247, 243);
+.tb-money .table-striped tbody tr {
+    background: rgba(0, 0, 0, 0)
+}
+
+.tb-money tbody tr:nth-of-type(1),
+.tb-product tbody tr:nth-of-type(1),
+.tb-people tbody tr:nth-of-type(1) {
+    background: #bfbeff;
+    background: -moz-linear-gradient(left, #bfbeff 1%, #feffe9 99%);
+    background: -webkit-linear-gradient(left, #bfbeff 1%, #feffe9 99%);
+    background: linear-gradient(to right, #bfbeff 1%, #feffe9 99%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#bfbeff', endColorstr='#feffe9', GradientType=1);
+}
+
+.tb-money tbody tr:nth-of-type(2),
+.tb-product tbody tr:nth-of-type(2),
+.tb-product tbody tr:nth-of-type(3) {
+    background: #bfbeff;
+    background: -moz-linear-gradient(left, #bfbeff 1%, #feffe9 99%);
+    background: -webkit-linear-gradient(left, #bfbeff 1%, #feffe9 99%);
+    background: linear-gradient(to right, #bfbeff 1%, #feffe9 99%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#bfbeff', endColorstr='#feffe9', GradientType=1);
 }
 
 .table th,
 .table td {
     text-align: center;
     vertical-align: middle;
-    /* line-height: 100%; */
+    overflow: hidden;
+    /* text-overflow: ellipsis; */
+    /* nowrap: false; */
+}
+
+.table {
+    table-layout: fixed;
+}
+
+.tb-money2 th {
+    background: #bfbeff;
+    background: -moz-linear-gradient(left, #bfbeff 1%, #feffe9 99%);
+    background: -webkit-linear-gradient(left, #bfbeff 1%, #feffe9 99%);
+    background: linear-gradient(to right, #bfbeff 1%, #feffe9 99%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#bfbeff', endColorstr='#feffe9', GradientType=1);
+}
+
+.tb-money td,
+.tb-money th,
+.tb-people td,
+.tb-people th,
+.tb-comment th,
+.tb-comment tr,
+.tb-comment td {
+    border: 3px solid #ffffff;
+}
+
+.tb-product th,
+.tb-product {
+    border: 0px solid #ffffff;
+}
+
+.tb-product tr {
+    border-top: 3px solid #ffffff;
+}
+
+.tb-people tbody tr:nth-of-type(2),
+.tb-people tbody tr:nth-of-type(3),
+.tb-comment tbody tr:nth-of-type(1),
+.tb-comment tbody tr:nth-of-type(2) {
+    background: rgb(237, 237, 237);
+    /* Old browsers */
+    background: -moz-linear-gradient(left, rgba(237, 237, 237, 1) 21%, rgba(237, 237, 237, 1) 34%, rgba(237, 237, 237, 1) 34%, rgba(237, 237, 237, 1) 72%, rgba(243, 243, 243, 1) 83%, rgba(255, 255, 255, 1) 95%, rgba(255, 255, 255, 1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, rgba(237, 237, 237, 1) 21%, rgba(237, 237, 237, 1) 34%, rgba(237, 237, 237, 1) 34%, rgba(237, 237, 237, 1) 72%, rgba(243, 243, 243, 1) 83%, rgba(255, 255, 255, 1) 95%, rgba(255, 255, 255, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, rgba(237, 237, 237, 1) 21%, rgba(237, 237, 237, 1) 34%, rgba(237, 237, 237, 1) 34%, rgba(237, 237, 237, 1) 72%, rgba(243, 243, 243, 1) 83%, rgba(255, 255, 255, 1) 95%, rgba(255, 255, 255, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ededed', endColorstr='#ffffff', GradientType=1);
+    /* IE6-9 */
 }
 
 .gradientDiv p {
     color: white;
 }
 
+.tb-comment td {
+    width: 30%;
+}
+
 .gradientDiv {
     background: rgb(62, 104, 153);
-    /* Old browsers */
     background: -moz-linear-gradient(left, rgba(62, 104, 153, 1) 0%, rgba(125, 185, 232, 1) 40%, rgba(255, 255, 255, 1) 100%);
-    /* FF3.6-15 */
     background: -webkit-linear-gradient(left, rgba(62, 104, 153, 1) 0%, rgba(125, 185, 232, 1) 40%, rgba(255, 255, 255, 1) 100%);
-    /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(to right, rgba(62, 104, 153, 1) 0%, rgba(125, 185, 232, 1) 40%, rgba(255, 255, 255, 1) 100%);
-    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#3e6899', endColorstr='#ffffff', GradientType=1);
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#32618e+0,6ebfce+40,ffffff+100 */
+    /* background: #32618e;
+
+    background: -moz-linear-gradient(left, #32618e 0%, #6ebfce 40%, #ffffff 100%);
+
+    background: -webkit-linear-gradient(left, #32618e 0%, #6ebfce 40%, #ffffff 100%);
+
+    background: linear-gradient(to right, #32618e 0%, #6ebfce 40%, #ffffff 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#32618e', endColorstr='#ffffff', GradientType=1); */
     /* IE6-9 */
+}
+
+
+/* part2 */
+
+.cardTitle {}
+
+.cardItem {
+    /* display: inline-block; */
+    /* flex-wrap: nowrap; */
+    /* height: 80px; */
+    text-align: center;
+    margin: 5px;
+    box-shadow: 1px 0px 5px rgb(226, 225, 225), -1px 0px 5px rgb(226, 225, 225), 0px 1px 5px rgb(226, 225, 225), 0px -1px 5px rgb(226, 225, 225);
+    /* background-color: rgb(226, 238, 255); */
 }
