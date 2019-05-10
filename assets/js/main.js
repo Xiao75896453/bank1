@@ -1595,5 +1595,8 @@ $("body").delegate(".record", "click", function(e) {
 
 /*section-3*/
 
+$("#S3r1i8").click(function() {
+    $("#S3row2").slideToggle("slow");
+});
 
 /*section-4*/
