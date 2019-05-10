@@ -1601,7 +1601,9 @@ $("#S3r1i8").click(function() {
 });
 
 
-  
+$("#S3-item").mouseover(function() {
+    $("iteam-cover").css(opacity:1.0);
+});  
 
 
 /*section-4*/
