@@ -1597,6 +1597,11 @@ $("body").delegate(".record", "click", function(e) {
 
 $("#S3r1i8").click(function() {
     $("#S3row2").slideToggle("slow");
+    $("#section-2").slideToggle("slow");
 });
+
+
+  
+
 
 /*section-4*/
