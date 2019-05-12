@@ -1727,6 +1727,7 @@ $("#S3r1i8").click(function() {
     $("#S3row2").slideToggle("slow");
     $('.left_div').toggleClass("h-87");
     // $('.left_div').css("height","87.6vh");
+
 });
 
 
