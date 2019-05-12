@@ -195,22 +195,20 @@ nav li:hover {
 
 #section-1 {
     position: relative;
-    /*width: 320px;
-    height: 1080px;*/
-    width: 16.7vw;
+    width: 13.7vw;
     height: 100vh;
-    background-color: yellow;
+    transition: 0.5s;
 }
 
 .S1Abackground img {
     position: fixed;
     z-index: -1;
-    width: 16.7vw;
+    width: 13.7vw;
     height: 100vh;
 }
 
 #S1A {
-    width: 16.7vw;
+    width: 13.7vw;
 }
 
 .S1Atopic {
@@ -229,7 +227,7 @@ nav li:hover {
     text-align: center;
     font-size: 1.5vw;
     width: 12vw;
-    margin-left: 2.2vw;
+    margin-left: 0.8vw;
     margin-top: 1vh;
 }
 
@@ -332,11 +330,44 @@ div.S1Arow4 {
     margin-left: 1vw;
 }
 
-#S1Arow7 p {
+#S1Arow7 span {
     cursor: pointer;
     color: white;
     position: relative;
     left: 1vw;
+}
+
+#S1Arow7img1 {
+    position: absolute;
+    display: none;
+    width: 50%;
+    margin-left: 5rem;
+    top: 11.7rem;
+    z-index: 10;
+}
+
+#S1Arow7img2 {
+    position: absolute;
+    display: none;
+    width: 50%;
+    margin-left: 7rem;
+    top: 12.7rem;
+    z-index: 10;
+}
+
+#S1Arow7img3 {
+    position: absolute;
+    display: none;
+    width: 50%;
+    margin-left: 5rem;
+    top: 15.5rem;
+    z-index: 10;
+}
+
+#S1A7img {
+    background-color: red;
+    padding: 20px;
+    display: none;
 }
 
 #S1Arow8 {
@@ -369,6 +400,27 @@ div.S1Arow4 {
     cursor: pointer;
     width: 10%;
     margin-left: 1vw;
+}
+
+#S1Abutton {
+    position: absolute;
+    right: -5px;
+    top: 45vh;
+    width: 2.3rem;
+    margin: auto;
+    bottom: 0;
+    cursor: pointer;
+    display: block;
+}
+
+#S1Abutton1 {
+    position: absolute;
+    left: 35px;
+    top: 45.2vh;
+    width: 2.3rem;
+    cursor: pointer;
+    display: none;
+    z-index: 9999;
 }
 
 

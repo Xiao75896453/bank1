@@ -346,23 +346,39 @@ nowrap {
     width: 100%;
 }
 
-.mainCard {
+.mainCard-1 {
     padding: 1rem;
-    /* background-color: rgb(200, 214, 228); */
-    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#6ebfce+0,ffffff+100 */
-    background: #6ebfce;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#aad6e4+0,ffffff+100 */
+    background: #aad6e4;
     /* Old browsers */
-    background: -moz-linear-gradient(left, #6ebfce 0%, #ffffff 100%);
+    background: -moz-linear-gradient(left, #aad6e4 0%, #ffffff 100%);
     /* FF3.6-15 */
-    background: -webkit-linear-gradient(left, #6ebfce 0%, #ffffff 100%);
+    background: -webkit-linear-gradient(left, #aad6e4 0%, #ffffff 100%);
     /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to right, #6ebfce 0%, #ffffff 100%);
+    background: linear-gradient(to right, #aad6e4 0%, #ffffff 100%);
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#6ebfce', endColorstr='#ffffff', GradientType=1);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#aad6e4', endColorstr='#ffffff', GradientType=1);
     /* IE6-9 */
 }
 
-.mainCard p {
+.mainCard-2 {
+    padding: 1rem;
+    /* background-color: rgb(200, 214, 228); */
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#6eb0ce+0,ffffff+100 */
+    background: #6eb0ce;
+    /* Old browsers */
+    background: -moz-linear-gradient(left, #6eb0ce 0%, #ffffff 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #6eb0ce 0%, #ffffff 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #6eb0ce 0%, #ffffff 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#6eb0ce', endColorstr='#ffffff', GradientType=1);
+    /* IE6-9 */
+}
+
+.mainCard-1 p,
+.mainCard-2 p {
     font-weight: 900;
 }
 
