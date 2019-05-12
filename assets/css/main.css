@@ -63,7 +63,7 @@ body {
     padding: 8px;
     margin: 0 0 0 3px;
     background: #fff;
-    border-radius: 3px;
+    border-radius: 10px;
     box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.2), 0 5px 20px 0 rgba(0, 0, 0, 0.2);
     /* box-shadow: 2px 2px 1px rgba(20%, 20%, 40%, 0.5) inset; */
 }
@@ -83,12 +83,15 @@ body {
     margin-right: 0;
 }
 
-.big_div .col {
+
+/* .big_div .col {
     padding-left: 1px;
     padding-right: 0;
-}
+} */
 
 #side-1 {
+    padding-left: 1px;
+    padding-right: 0;
     position: relative;
 }
 
@@ -379,7 +382,7 @@ div.S1Arow4 {
     height: 952.57px;*/
     /* margin: 11.8vh 0 0 16.7vw; */
     /* width: 83.3vw; */
-    height: 88.2vh;
+    /* height: 88.2vh; */
     background-color: rgb(242, 246, 253);
     font-family: Microsoft JhengHei;
 }
@@ -457,8 +460,7 @@ div.S1Arow4 {
     background-color: rgb(226, 238, 255);
 }
 
-
-/* #S2-tb-1 .table-striped tbody tr:nth-of-type(odd) {
+#S2-tb-1 .table-striped tbody tr:nth-of-type(odd) {
     background: rgb(247, 247, 209)
 }
 
@@ -467,7 +469,7 @@ div.S1Arow4 {
 .S2A2item:nth-of-type(6),
 .S2A2item:nth-of-type(8) {
     background: white;
-} */
+}
 
 .S2AAicon {
     /* float: left; */
@@ -1483,84 +1485,129 @@ div.S1Arow4 {
 
 #section-3 {
     position: relative;
-    /*margin: 0 0 0 320px;
-    width: 1600px;
-    height: 127.43px;*/
-    /* margin: 0 0 0 16.7vw; */
-    /* width: 83.3vw; */
-    height: 11.8vh;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,ffffff+15,ffffff+15,ffffff+37,ffffff+45,f2f6fd+98 */
+    background: rgb(255, 255, 255);
+    /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 15%, rgba(255, 255, 255, 1) 15%, rgba(255, 255, 255, 1) 37%, rgba(255, 255, 255, 1) 45%, rgba(242, 246, 253, 1) 98%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 15%, rgba(255, 255, 255, 1) 15%, rgba(255, 255, 255, 1) 37%, rgba(255, 255, 255, 1) 45%, rgba(242, 246, 253, 1) 98%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 15%, rgba(255, 255, 255, 1) 15%, rgba(255, 255, 255, 1) 37%, rgba(255, 255, 255, 1) 45%, rgba(242, 246, 253, 1) 98%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f2f6fd', GradientType=0);
+    /* IE6-9 */
 }
 
 #S3row1 {
     position: relative;
     width: 100%;
-    height: 55.4%;
+    height: 6.53vh;
 }
 
 #S3row2 {
     position: relative;
     width: 100%;
-    height: 44.6%;
+    height: 5.26vh;
     color: white;
 }
 
 .S3r1item1 {
-    position: absolute;
-    width: 130px;
-    left: 20px;
-    height: 100%;
-    float: left;
+    position: relative;
+    vertical-align: middle;
+    line-height: 6.53vh;
+    margin: 0 2rem;
+}
+
+.S3r1item1 p {
+    display: inline-block;
+    font-size: 20px;
+    /* font-weight: bold; */
+}
+
+.S3r1picture1 {
+    display: inline-block;
+}
+
+.navItem {
+    cursor: pointer;
+    margin: 0 -1px;
+    background-image: url(../media/navBar-bg.png);
+    background-size: 100% 50px;
+    background-repeat: no-repeat;
+    position: relative;
+    vertical-align: middle;
+    line-height: 6.53vh;
+    padding: 3px 8px;
+}
+
+.navItem-last {
+    cursor: pointer;
+    /* background-image: url('../media/navBar-bg.png'); */
+    /* background-size: cover;
+    background-repeat: no-repeat; */
+    position: relative;
+    vertical-align: middle;
+    line-height: 6.53vh;
+}
+
+.navItem-last img {
+    width: 2rem;
+}
+
+.navItem p {
+    display: inline-block;
+    font-size: 16px;
 }
 
 .S3r1item2 {
-    position: absolute;
+    /* position: absolute;
     left: 150px;
     top: -5px;
     width: 30px;
-    float: left;
+    float: left; */
 }
 
 .S3r1item3 {
-    position: absolute;
+    /* position: absolute;
     left: 190px;
     width: 120px;
-    float: left;
+    float: left; */
 }
 
 .S3r1item4 {
-    position: absolute;
+    /* position: absolute;
     left: 300px;
     width: 80px;
-    float: left;
+    float: left; */
 }
 
 .S3r1item5 {
-    position: absolute;
+    /* position: absolute;
     left: 370px;
     width: 80px;
-    float: left;
+    float: left; */
 }
 
 .S3r1item6 {
-    position: absolute;
+    /* position: absolute;
     left: 440px;
     width: 80px;
-    float: left;
+    float: left; */
 }
 
 .S3r1item7 {
-    position: absolute;
+    /* position: absolute;
     left: 510px;
     width: 80px;
-    float: left;
+    float: left; */
 }
 
 .S3r1item8 {
-    position: absolute;
+    /* position: absolute;
     left: 580px;
     width: 80px;
     float: left;
-    height: 57.2px;
+    height: 57.2px; */
 }
 
 .S3r1item9 {
@@ -1637,4 +1684,8 @@ div.S1Arow4 {
     /* position: relative; */
     /* width: 100%; */
     /* min-height: 1px */
+}
+
+.h-87 {
+    height: 87.6vh;
 }

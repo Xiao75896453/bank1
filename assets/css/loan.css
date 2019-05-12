@@ -16,13 +16,16 @@
     padding: 2% 0.5% 2% 1%;
 }
 
-.doc-loan p {
-    font-size: 1.4rem;
-    /* font-weight: 1200; */
+p {
     font-family: 'Microsoft JhengHei';
 }
 
-.doc-loan p,
+.doc-loan p {
+    font-size: 1.4rem;
+    /* font-weight: 1200; */
+}
+
+p,
 .doc-loan th,
 .doc-loan td {
     letter-spacing: 2px;
@@ -39,8 +42,17 @@
 }
 
 .ln-shrink {
+    width: 1.7rem;
     display: inline-block;
     cursor: pointer;
+    padding-bottom: 7px;
+    margin-right: 1rem;
+}
+
+.plus0,
+.plus1,
+.plus2 {
+    display: none;
 }
 
 .flexContainer {
@@ -52,13 +64,14 @@
     margin-bottom: 1rem;
 }
 
-wrap {
+
+/* wrap {
     flex-wrap: wrap;
 }
 
 nowrap {
     flex-wrap: nowrap;
-}
+} */
 
 .loanTextbox {
     width: 33%;
@@ -101,6 +114,7 @@ nowrap {
 
 .tb-container {
     /* width: 93%; */
+    margin-bottom: 2rem;
     box-shadow: 1px 0px 5px rgb(226, 225, 225), -1px 0px 5px rgb(226, 225, 225), 0px 1px 5px rgb(226, 225, 225), 0px -1px 5px rgb(226, 225, 225);
 }
 
@@ -213,14 +227,254 @@ nowrap {
 
 /* part2 */
 
-.cardTitle {}
+.cardTitle-main {
+    margin: 0 0 1rem 0;
+}
+
+.cardTitle-main p {
+    text-align: left;
+    font-size: 18px;
+    color: gray;
+    font-weight: bold;
+    /* display: inline-block; */
+}
+
+.cardTitle p {
+    text-align: left;
+    font-size: 16px;
+    color: gray;
+}
+
+.cardTitle-2 {
+    text-align: left;
+}
+
+.cardTitle-2 p {
+    display: inline-block;
+    text-align: left;
+    font-size: 18px;
+    color: gray;
+}
+
+.ln-input {
+    display: inline-block;
+    width: 6rem;
+    background-color: white;
+}
+
+.cardWord,
+.cardWord-main {
+    display: inline-block;
+}
+
+.cardWord p {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 7px;
+}
+
+.cardWord-main p {
+    font-weight: bold;
+    font-size: 25px;
+    margin-top: 7px;
+}
+
+.cd .cdbigWord {
+    display: inline-block;
+    font-size: 36px;
+}
+
+.family-word .cdfamilyWord {
+    display: inline-block;
+    font-size: 30px;
+    vertical-align: middle;
+}
 
 .cardItem {
     /* display: inline-block; */
     /* flex-wrap: nowrap; */
     /* height: 80px; */
     text-align: center;
-    margin: 5px;
+    margin: 6px;
     box-shadow: 1px 0px 5px rgb(226, 225, 225), -1px 0px 5px rgb(226, 225, 225), 0px 1px 5px rgb(226, 225, 225), 0px -1px 5px rgb(226, 225, 225);
     /* background-color: rgb(226, 238, 255); */
 }
+
+.ln-dollor {
+    padding: 1rem;
+}
+
+.no-padding>.row>.col {
+    padding: 0;
+}
+
+.bg-gray {
+    background-color: #e8e7eed3;
+    padding: 1rem;
+}
+
+.bg-gray-1 {
+    background-color: #e8e7eed3;
+    padding: 0.5rem;
+}
+
+.bg-white {
+    background-color: rgba(255, 255, 255, 1);
+    padding: 1rem;
+}
+
+.cardItem p {
+    margin-bottom: 0;
+}
+
+.cardcontainer {
+    background-color: rgba(249, 244, 244, 0.5);
+    margin: 15px;
+    border-radius: 15px;
+    box-shadow: 1px 0px 5px rgb(249, 239, 239), 2px -1px 0px rgb(226, 225, 225), -1px 1px 0px rgb(226, 225, 225), 0px -1px 2px rgb(226, 225, 225);
+    /* display: flex; */
+    /* justify-content: center; */
+    /* flex-direction: column; */
+    /* text-align: center; */
+}
+
+.main-money {
+    width: 30%;
+}
+
+.main-money .sm-card {
+    width: 100%;
+}
+
+.mainCard {
+    padding: 1rem;
+    /* background-color: rgb(200, 214, 228); */
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#6ebfce+0,ffffff+100 */
+    background: #6ebfce;
+    /* Old browsers */
+    background: -moz-linear-gradient(left, #6ebfce 0%, #ffffff 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #6ebfce 0%, #ffffff 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #6ebfce 0%, #ffffff 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#6ebfce', endColorstr='#ffffff', GradientType=1);
+    /* IE6-9 */
+}
+
+.mainCard p {
+    font-weight: 900;
+}
+
+.lnPart {
+    margin-top: 2rem;
+}
+
+.padding-2 {
+    padding: 1rem 2.5rem;
+}
+
+.padding-2-1 {
+    padding: 1rem 1rem;
+}
+
+.width17rem {
+    width: 17rem;
+}
+
+.lnCard-icon {
+    width: 5rem;
+}
+
+.lnCard-icon-family {
+    vertical-align: middle;
+    display: inline-block;
+    width: 4rem;
+    margin: 0 3px;
+}
+
+.family-word {
+    display: inline-block;
+    margin-bottom: 0rem;
+}
+
+.manyCards {
+    margin-bottom: 2rem;
+}
+
+.exp-icon {
+    text-align: center;
+    line-height: 4rem;
+    /* width: 12rem; */
+}
+
+.exp-icon p {
+    padding-top: 13px;
+    font-size: 22px;
+    text-align: center;
+    display: inline-block;
+    /* width: 12rem; */
+}
+
+.exp-p {
+    vertical-align: middle;
+    line-height: 9rem;
+}
+
+.exp-icon img {
+    /* text-align: center; */
+    width: 9rem;
+}
+
+.manyCards .cardWord img {
+    margin-top: 1rem;
+    width: 2rem;
+}
+
+.sm-word {
+    width: 33%;
+}
+
+#lnSummary {
+    position: relative;
+    height: 6rem;
+    /* height: 30px; */
+    /* background-image: url('../media/ln-bar.png'); */
+}
+
+
+/* 
+.ln-summary {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+} */
+
+.width33 {
+    /* z-index: 5; */
+    height: 5rem;
+    width: 20%;
+    padding-top: 5px;
+    line-height: 80px;
+    /* border: 3px solid rgba(125, 185, 232, 1); */
+}
+
+.width33 p {
+    display: inline-block;
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.ln-summary {
+    /* color: white; */
+    height: 5rem;
+    /* width: 100%; */
+    /* background-size: contain; */
+    background-size: 100% 100px;
+    background-repeat: no-repeat;
+    background-image: url('../media/ln-bar-new.png');
+}
+
+.ln-summary-word {}
