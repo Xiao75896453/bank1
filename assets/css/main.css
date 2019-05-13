@@ -1667,52 +1667,15 @@ div.S1Arow4 {
     float: left;
 }
 
-.S3r2item1 {
-    position: absolute;
-    left: 80px;
+.S3r2item {
     width: 80px;
     height: 34.89px;
-    float: left;
+ }
+.S3r2iteam-yellow{
+    color:yellow;
 }
-
-.S3r2item2 {
-    position: absolute;
-    left: 150px;
-    width: 80px;
-    height: 34.89px;
-    float: left;
-}
-
-.S3r2item3 {
-    position: absolute;
-    left: 220px;
-    width: 80px;
-    height: 34.89px;
-    float: left;
-}
-
-.S3r2item4 {
-    position: absolute;
-    left: 290px;
-    width: 80px;
-    height: 34.89px;
-    float: left;
-}
-
-.S3r2item5 {
-    position: absolute;
-    left: 360px;
-    width: 80px;
-    height: 34.89px;
-    float: left;
-}
-
-.S3r2item6 {
-    position: absolute;
-    left: 427px;
-    width: 120px;
-    height: 34.89px;
-    float: left;
+.S3row2 img{
+    height:100%;
 }
 
 .Layout {
