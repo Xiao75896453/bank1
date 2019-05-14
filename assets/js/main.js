@@ -42,7 +42,7 @@ $(document).ready(function() {
         }
         $("#side-2").toggleClass("off");
         checkS2AWidth();
-        shrinkclick();
+        // shrinkclick();
     });
 
     $("body").delegate(".loan", "click", function(e) {
@@ -88,16 +88,16 @@ $(document).ready(function() {
 
     });
 })
-    
-var analysis =1;
+
+var analysis = 1;
 $(".analysis-bt").click(function() {
     if (window.analysis == 1) {
-            $(".analysis").animate({ height: "500px" });
-            window.analysis = 0;
-        } else if (window.analysis == 0) {
-            $(".analysis").animate({ height: "0px" });
-            window.analysis = 1;
-        }
+        $(".analysis").animate({ height: "500px" });
+        window.analysis = 0;
+    } else if (window.analysis == 0) {
+        $(".analysis").animate({ height: "0px" });
+        window.analysis = 1;
+    }
 });
 var clicknum = 0;
 
@@ -2767,10 +2767,11 @@ var S2Aanalysis = 1;
 var S2A203 = 1;
 var S2A202 = 1;
 var S2A208 = 1;
+
 function notice() {
     $("#S2A203").click(function() {
         if (window.S2A203 == 1) {
-            $("#analysis1").show();           
+            $("#analysis1").show();
             window.S2A203 = 0;
         } else if (window.S2A203 == 0) {
             $("#analysis1").hide();
