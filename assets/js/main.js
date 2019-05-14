@@ -323,7 +323,7 @@ function SwitchPages(page, side) {
                         </table>
                         
                     </div>
-                    <!--<div class="S2analysis S2subrow" id="S2Aanalysis">
+                    <div class="S2analysis S2subrow" id="S2Aanalysis">
                         <div class="S2analysiscont" id="S2Aanalysiscont">
                             
                             <p>請注意 : 為符合銀行法相關規定，請依下列注意事項辦理 :"<p>
@@ -334,7 +334,7 @@ function SwitchPages(page, side) {
                         <div class="S2analysisicon" id="S2Aanalysisicon">
                             <img src="assets//media//S2A20.png">
                         </div>
-                    </div>--!>
+                    </div>
                     <div class="S2noticerow S2subrow" id="S2Anoticerow">
                         <div class="S2noticeText" id="S2AnoticeText">
                             <p>請注意 : 為符合銀行法相關規定，請依下列注意事項辦理 :"<p>
@@ -541,53 +541,57 @@ function SwitchPages(page, side) {
                     </div>
                     
                     <div class="S2subrow d-flex" id="S2Brow8">
-                    <div class="S2B8section d-flex">
+                        <div class="S2B8section d-flex">
                             <div class="S2B8colume d-flex" id="S2B8colume1">
                                 <div class="S2B8item" id="S2B801">
                                     <p class="S2B8title">貸款產品</p>
                                     <input class="S2B8content1 S2B8text" type="text">
-                                <p class="S2B8title">連保</p><p class="S2B8title">一般</p></div>
+                                </div>
                                 <div class="S2B8item" id="S2B802">
+                                    <p class="S2B8title">連保</p>
                                     
+                                        <input type="checkbox" class="S2B8checkbox">
                                     
+                                    <p class="S2B8title">一般</p>    
+                                    <input type="checkbox" class="S2B8checkbox">
                                 </div>
                             </div>
                             <div class="S2B8colume d-flex" id="S2B8colume3">
                                 <div class="S2B8item" id="S2B803">
                                     <p class="S2B8title">金額</p>
-                                    <input class="S2B8content S2B8number" type="text">
+                                    <input class="S2B8content S2B8text" type="text">
                                 </div>
                                 <div class="S2B8item" id="S2B804">
                                     <p class="S2B8title">可使用額度</p>
-                                    <input class="S2B8content S2B8number" type="text">
+                                    <input class="S2B8content S2B8text" type="text">
                                 </div>
                             </div>
-                            <div class="S2B8colume d-flex" id="S2B8colume4">
+                            <div class="S2B8colume d-flex flex-nowrap" id="S2B8colume4">
                                 <div class="S2B8item" id="S2B805">
                                     <p class="S2B8title">總期數</p>
-                                    <input class="S2B8content S2B8number" type="text">
+                                    <input class="S2B8content S2B8text" type="text">
                                 </div>
                                 <div class="S2B8item" id="S2B806">
                                     <p class="S2B8title">展期次數</p>
-                                    <input class="S2B8content S2B8number" type="text">
+                                    <input class="S2B8content S2B8text" type="text">
                                 </div>
-                            </div>
-                            <div class="S2B8colume" id="S2B8colume5">
                                 <div class="S2B8item" id="S2B807">
                                     <p class="S2B8title">利率</p>
-                                    <input class="S2B8content S2B8number" type="text">
+                                    <input class="S2B8content S2B8text" type="text">
                                 </div>
+                        
                             </div>
+
                         </div>
                         <div class="S2B8section1 d-flex flex-fill">
                             <table border="1" class="tb-S2B8section1 table table-bordered dt-responsive nowrap">
                             <tr>
                                 <th><p>案件送簽性質</p><p>簽核</p></th>
                                 <th><p>簽核結果</p>
-                                <img class="S2B81icon" src="assets//media//S2A09.png"></div></th>
+                                <img class="S2B81icon" src="assets//media//S2A09.png"></th>
                                 <th><p>同意項目</p><p>核貸條件</p></th>
                                 <th><p>是否為最高核委</p>
-                                <img class="S2B81icon" src="assets//media//S2A10.png"></div></th>
+                                <img class="S2B81icon" src="assets//media//S2A10.png"></th>
                                 <th><p>調整核貸金額原因</p><p>ss</p></th>
                                 <th><p>審核意見</p><p>ddd</p></th>
                                 
@@ -619,8 +623,7 @@ function SwitchPages(page, side) {
                                 <img id="S2set" src="assets//media//S2A17.png">
                             </div>
                         </div>
-                        <!--<label for="tags">Tags: </label>--!>
-                        <!--<input id="tags">--!>
+
                         <div class="S2B9columne" id="S2B9columne2">
                             <textarea class="S2B9text" id="S2tags" cols="50" rows="4"></textarea>
                         </div>
@@ -1542,12 +1545,9 @@ function SwitchPages(page, side) {
                                 </table>
                             </div>
                         </div>
-                        </div>
-                        <!-- <p class="S2D4content S2D4choice" id="S2D401a">同業務人員</p>
-    <p class="S2D4content S2D4choice" id="S2D401b">同模型</p>
-    <p class="S2D4content S2D4choice" id="S2D401c">同核貸委員</p>
-    <p class="S2D4content S2D4choice" id="S2D401d">自行輸入</p> -->
                     </div>
+       
+    
                 </section>
 
 

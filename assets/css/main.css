@@ -936,7 +936,7 @@ div.S1Arow4 {
 }
 
 #S2B3bigcolume1 {
-    display: flex;
+    display: inline-flex;
     flex-wrap: wrap;
 }
 
@@ -957,30 +957,32 @@ div.S1Arow4 {
     display: inline-flex;
     flex-wrap: wrap;
     margin: 0;
+    width: 450px;
+    justify-content:space-between;
 }
 
 .S2B3item {
     /* float: left; */
     display: inline-flex;
-    justify-content: flex-end;
     flex-wrap: nowrap;
     height: 30px;
     margin: 5px;
+    justify-content:flex-end;
 }
 
 .S2B3title {
-    display: inline-block;
+    white-space:nowrap;
 }
 
 .S2B3text {
     display: inline-block;
     text-align: center;
-    width: 92.5px;
     margin: 0 10px;
+    width: 100px;
 }
 
 #S2B303 input {
-    width: 50px;
+    width: 70px;
 }
 
 .S2B3checkbox {
@@ -995,11 +997,11 @@ div.S1Arow4 {
 }
 
 #S2B305 {
-    width: 200px;
+    width: 220px;
 }
 
 #S2B303 {
-    width: 130px;
+    width: 140px;
 }
 
 #S2B302 {
@@ -1203,45 +1205,61 @@ div.S1Arow4 {
 }
 
 .S2B8colume {
-    /* display: inline-flex; */
+    display: inline-flex;
     flex-wrap: wrap;
-    margin-right: 20px;
     /* width: 420px; */
     height: 50px;
+    width: 350px;
+    justify-content:space-between;
+    margin-bottom: 15px;
 }
 
 .S2B8section {
     /* height: 100px; */
-    padding: 20px 0;
-    margin-bottom: 15px;
+    
     /* display: inline-flex; */
     flex-wrap: wrap;
 }
 
-.S2B8section p {
+.S2B8item p {
     /* display: inline-flex; */
-    margin-right: 15px;
+    margin:0 10px;
 }
-
+.S2B8checkbox{
+    width: 20px;
+    height: 20px;
+}
 .S2B8item {
     /* display: inline-flex; */
-    margin-right: 10px;
+    display: inline-flex;
+    flex-wrap: nowrap;
+    justify-content:space-between;
     /* width: 200px; */
 }
-
-.S2B8item input {
+#S2B802{
+    justify-content:center;
+}
+#S2B801,
+#S2B802,
+#S2B803{
+    width: 165px;
+}
+#S2B804{
+    width: 180px;
+}
+.S2B8item .S2B8text {
     height: 30px;
 }
 
-#S2B8colume1 input,
-#S2B8colume3 input {
-    width: 100px;
+#S2B8colume1 .S2B8text,
+#S2B8colume3 .S2B8text {
+    width: 80px;
 }
 
-#S2B8colume4 input,
-#S2B8colume5 input {
-    width: 50px;
-    margin-right: 50px;
+#S2B8colume4 .S2B8text,
+#S2B8colume5 .S2B8text {
+    width: 45px;
+    /* margin-right: 50px; */
 }
 
 .S2B8title {
@@ -1254,6 +1272,7 @@ div.S1Arow4 {
 .S2B8section2 {
     display: inline-flex;
     flex-wrap: wrap;
+    margin-top: 20px
 }
 
 .S2B8section1 p,
