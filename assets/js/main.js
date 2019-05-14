@@ -33,6 +33,65 @@ $(document).ready(function() {
         $("#S1Arow4").slideToggle("slow");
     });
 
+
+    $(".db-bt").click(function(event) {
+        if ($("#side-2").hasClass("off")) {
+            $("#side-2").css("display", "block");
+        } else {
+            $("#side-2").css("display", "none");
+        }
+        $("#side-2").toggleClass("off");
+        checkS2AWidth();
+        shrinkclick();
+    });
+
+    $("body").delegate(".loan", "click", function(e) {
+        var page = "loan";
+        if ($(this).parent().is('.lc')) {
+            console.log("a1")
+            SwitchPages(page, 1); //左
+            $(".lc .on").removeClass("on")
+            $(".lc .loan").toggleClass("on")
+        } else {
+            console.log("a2")
+            SwitchPages(page, 2); //右
+            $(".rc .on").removeClass("on")
+            $(".rc .loan").toggleClass("on")
+
+        }
+        checkS2AWidth();
+        shrinkclick()
+    });
+    $("body").delegate(".record", "click", function(e) {
+
+        var page = "record";
+        if ($(this).parent().is('.lc')) {
+            console.log("a1")
+            SwitchPages(page, 1); //左
+            $(".lc .on").removeClass("on")
+            $(".lc .record").toggleClass("on")
+
+
+        } else {
+            console.log("a2")
+            SwitchPages(page, 2); //右
+            $(".rc .on").removeClass("on")
+            $(".rc .record").toggleClass("on")
+        }
+
+        shrinkclick();
+        notice();
+        checkS2AWidth();
+        tag();
+        save();
+
+
+    });
+})
+
+var clicknum = 0;
+
+function shrinkclick() {
     $(".shrink0").click(function() {
 
         // if ($(this).parent().parent().is('#ln-part-0')){
@@ -96,58 +155,8 @@ $(document).ready(function() {
 
     });
 
-    $(".db-bt").click(function(event) {
-        if ($("#side-2").hasClass("off")) {
-            $("#side-2").css("display", "block");
-        } else {
-            $("#side-2").css("display", "none");
-        }
-        $("#side-2").toggleClass("off");
-        checkS2AWidth();
-    });
 
-    $("body").delegate(".loan", "click", function(e) {
-        var page = "loan";
-        if ($(this).parent().is('.lc')) {
-            console.log("a1")
-            SwitchPages(page, 1); //左
-            $(".lc .on").removeClass("on")
-            $(".lc .loan").toggleClass("on")
-        } else {
-            console.log("a2")
-            SwitchPages(page, 2); //右
-            $(".rc .on").removeClass("on")
-            $(".rc .loan").toggleClass("on")
-
-        }
-        checkS2AWidth();
-    });
-    $("body").delegate(".record", "click", function(e) {
-
-        var page = "record";
-        if ($(this).parent().is('.lc')) {
-            console.log("a1")
-            SwitchPages(page, 1); //左
-            $(".lc .on").removeClass("on")
-            $(".lc .record").toggleClass("on")
-
-
-        } else {
-            console.log("a2")
-            SwitchPages(page, 2); //右
-            $(".rc .on").removeClass("on")
-            $(".rc .record").toggleClass("on")
-        }
-
-        notice();
-        checkS2AWidth();
-        tag();
-        save();
-
-    });
-})
-
-var clicknum = 0;
+}
 
 /*左右縮放*/
 
@@ -2650,16 +2659,8 @@ function checkS2AWidth() {
     }
 }
 
-$(".loan").click(function(event) {
-    var page = "loan";
-    if ($(this).parent().is('.lc')) {
-        console.log("a1")
-        SwitchPages(page, 1); //左
-    } else {
-        console.log("a2")
-        SwitchPages(page, 2); //右
-    }
-});
+
+
 $("#save").click(function(event) {
     $('#save').attr('src', 'assets/media/S2A18.png');
 });
