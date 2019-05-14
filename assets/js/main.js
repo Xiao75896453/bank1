@@ -1,34 +1,156 @@
 /*section-1*/
 
-window.onload = function() {
-    var olink1 = document.getElementById("S1A7content1");
-    var olink2 = document.getElementById("S1A7content2");
-    var olink3 = document.getElementById("S1A7content3");
-    olink1.onclick = function() {
-        olink1.style.color = "red";
-        olink2.style.color = "white";
-        olink3.style.color = "white";
+$(document).ready(function() {
+
+    notice();
+    checkS2AWidth();
+    tag();
+    save();
+    window.onload = function() {
+        var olink1 = document.getElementById("S1A7content1");
+        var olink2 = document.getElementById("S1A7content2");
+        var olink3 = document.getElementById("S1A7content3");
+        olink1.onclick = function() {
+            olink1.style.color = "red";
+            olink2.style.color = "white";
+            olink3.style.color = "white";
+        }
+        olink2.onclick = function() {
+            olink2.style.color = "red";
+            olink1.style.color = "white";
+            olink3.style.color = "white";
+        }
+        olink3.onclick = function() {
+            olink3.style.color = "red";
+            olink1.style.color = "white";
+            olink2.style.color = "white";
+        }
     }
-    olink2.onclick = function() {
-        olink2.style.color = "red";
-        olink1.style.color = "white";
-        olink3.style.color = "white";
-    }
-    olink3.onclick = function() {
-        olink3.style.color = "red";
-        olink1.style.color = "white";
-        olink2.style.color = "white";
-    }
-}
-$("#S1A1img").click(function() {
-    $("#S1Arow2").slideToggle("slow");
-});
-$("#S1A3img").click(function() {
-    $("#S1Arow4").slideToggle("slow");
-});
+    $("#S1A1img").click(function() {
+        $("#S1Arow2").slideToggle("slow");
+    });
+    $("#S1A3img").click(function() {
+        $("#S1Arow4").slideToggle("slow");
+    });
+
+    $(".shrink0").click(function() {
+
+        // if ($(this).parent().parent().is('#ln-part-0')){
+        $("#lnPartMainContent").slideToggle("slow");
+        if ($(".plus0").hasClass("off")) {;
+            $(".plus0").css("display", "inline-block");
+            $(".minus0").css("display", "none");
+
+        } else {
+            $(".plus0").css("display", "none")
+            $(".minus0").css("display", "inline-block");
+        }
+        $(".shrink0").toggleClass("off");
+        // }
+    });
+
+    $(".shrink1").click(function() {
+
+        // if ($(this).parent().parent().is('#ln-part-1')){
+        $("#lnPart1Content").slideToggle("slow");
+        if ($(".plus1").hasClass("off")) {;
+            $(".plus1").css("display", "inline-block");
+            $(".minus1").css("display", "none");
+
+        } else {
+            $(".plus1").css("display", "none")
+            $(".minus1").css("display", "inline-block");
+        }
+        $(".shrink1").toggleClass("off");
+        // }
+    });
+
+
+    $(".shrink2").click(function() {
+        $("#lnPart2Content").slideToggle("slow");
+
+        if ($(".plus2").hasClass("off")) {;
+            $(".plus2").css("display", "inline-block");
+            $(".minus2").css("display", "none");
+
+        } else {
+            $(".plus2").css("display", "none")
+            $(".minus2").css("display", "inline-block");
+        }
+        $(".shrink2").toggleClass("off");
+
+    });
+
+    $(".shrink3").click(function() {
+        $("#lnPart3Content").slideToggle("slow");
+
+        if ($(".plus3").hasClass("off")) {;
+            $(".plus3").css("display", "inline-block");
+            $(".minus3").css("display", "none");
+
+        } else {
+            $(".plus3").css("display", "none")
+            $(".minus3").css("display", "inline-block");
+        }
+        $(".shrink3").toggleClass("off");
+
+    });
+
+    $(".db-bt").click(function(event) {
+        if ($("#side-2").hasClass("off")) {
+            $("#side-2").css("display", "block");
+        } else {
+            $("#side-2").css("display", "none");
+        }
+        $("#side-2").toggleClass("off");
+        checkS2AWidth();
+    });
+
+    $("body").delegate(".loan", "click", function(e) {
+        var page = "loan";
+        if ($(this).parent().is('.lc')) {
+            console.log("a1")
+            SwitchPages(page, 1); //左
+            $(".lc .on").removeClass("on")
+            $(".lc .loan").toggleClass("on")
+        } else {
+            console.log("a2")
+            SwitchPages(page, 2); //右
+            $(".rc .on").removeClass("on")
+            $(".rc .loan").toggleClass("on")
+
+        }
+        checkS2AWidth();
+    });
+    $("body").delegate(".record", "click", function(e) {
+
+        var page = "record";
+        if ($(this).parent().is('.lc')) {
+            console.log("a1")
+            SwitchPages(page, 1); //左
+            $(".lc .on").removeClass("on")
+            $(".lc .record").toggleClass("on")
+
+
+        } else {
+            console.log("a2")
+            SwitchPages(page, 2); //右
+            $(".rc .on").removeClass("on")
+            $(".rc .record").toggleClass("on")
+        }
+
+        notice();
+        checkS2AWidth();
+        tag();
+        save();
+
+    });
+})
+
+var clicknum = 0;
 
 /*左右縮放*/
-var clicknum = 0;
+
 
 function clickcount() {
     clicknum++;
@@ -94,68 +216,6 @@ $(function() {
 
 
 
-$(".shrink0").click(function() {
-
-    // if ($(this).parent().parent().is('#ln-part-0')){
-    $("#lnPartMainContent").slideToggle("slow");
-    if ($(".plus0").hasClass("off")) {;
-        $(".plus0").css("display", "inline-block");
-        $(".minus0").css("display", "none");
-
-    } else {
-        $(".plus0").css("display", "none")
-        $(".minus0").css("display", "inline-block");
-    }
-    $(".shrink0").toggleClass("off");
-    // }
-});
-
-$(".shrink1").click(function() {
-
-    // if ($(this).parent().parent().is('#ln-part-1')){
-    $("#lnPart1Content").slideToggle("slow");
-    if ($(".plus1").hasClass("off")) {;
-        $(".plus1").css("display", "inline-block");
-        $(".minus1").css("display", "none");
-
-    } else {
-        $(".plus1").css("display", "none")
-        $(".minus1").css("display", "inline-block");
-    }
-    $(".shrink1").toggleClass("off");
-    // }
-});
-
-
-$(".shrink2").click(function() {
-    $("#lnPart2Content").slideToggle("slow");
-
-    if ($(".plus2").hasClass("off")) {;
-        $(".plus2").css("display", "inline-block");
-        $(".minus2").css("display", "none");
-
-    } else {
-        $(".plus2").css("display", "none")
-        $(".minus2").css("display", "inline-block");
-    }
-    $(".shrink2").toggleClass("off");
-
-});
-
-$(".shrink3").click(function() {
-    $("#lnPart3Content").slideToggle("slow");
-
-    if ($(".plus3").hasClass("off")) {;
-        $(".plus3").css("display", "inline-block");
-        $(".minus3").css("display", "none");
-
-    } else {
-        $(".plus3").css("display", "none")
-        $(".minus3").css("display", "inline-block");
-    }
-    $(".shrink3").toggleClass("off");
-
-});
 
 
 
@@ -2560,16 +2620,7 @@ function SwitchPages(page, side) {
 
 }
 
-$(".loan").click(function(event) {
-    var page = "loan";
-    if ($(this).parent().is('.lc')) {
-        console.log("a1")
-        SwitchPages(page, 1); //左
-    } else {
-        console.log("a2")
-        SwitchPages(page, 2); //右
-    }
-});
+
 
 function checkS2AWidth() {
     var el = document.getElementById("S2A2colume1");
@@ -2598,38 +2649,17 @@ function checkS2AWidth() {
 
     }
 }
-// new ResizeSensor(jQuery('.left_div'), function() {
-//     console.log("ssdsdsds")
-//     var el = document.getElementById("S2A2colume1");
-//     var e2 = document.getElementById("S2A2colume2");
-//     // if ($("#S2A").width() > 1300) {
-//     //     el.style.width = "800px";
-//     //     e2.style.width = "400px";
-//     //     $("#SArow2").css("width", "1300px");
-//     // } else if ($("#S2A").width() < 1300) {
-//     //     el.style.width = "600px";
-//     //     e2.style.width = "400px";
-//     //     $("#SArow2").css("width", "1100px");
-//     // } else if ($("#S2A").width() < 1100) {
-//     //     el.style.width = "400px";
-//     //     e2.style.width = "200px";
-//     //     $("#SArow2").css("width", "700px");
-//     // } else if ($("#S2A").width() < 840) {
-//     //     el.style.width = "400px";
-//     //     e2.style.width = "400px";
-//     //     $("#SArow2").css("width", "500px");
-//     // }
 
-//     if ($(".left_div").width() > 1000) {
-//         el.style.width = "60%";
-//         e2.style.width = "38%";
-//     } else if ($(".left_div").width() < 1000) {
-//         el.style.width = "100%";
-//         e2.style.width = "100%";
-//     }
-
-// });
-
+$(".loan").click(function(event) {
+    var page = "loan";
+    if ($(this).parent().is('.lc')) {
+        console.log("a1")
+        SwitchPages(page, 1); //左
+    } else {
+        console.log("a2")
+        SwitchPages(page, 2); //右
+    }
+});
 $("#save").click(function(event) {
     $('#save').attr('src', 'assets/media/S2A18.png');
 });
@@ -2800,15 +2830,6 @@ function notice() {
     });
 }
 
-$(".db-bt").click(function(event) {
-    if ($("#side-2").hasClass("off")) {
-        $("#side-2").css("display", "block");
-    } else {
-        $("#side-2").css("display", "none");
-    }
-    $("#side-2").toggleClass("off");
-    checkS2AWidth();
-});
 
 function save() {
     $('input').change(function() {
@@ -2817,22 +2838,6 @@ function save() {
     });
 }
 
-$("body").delegate(".loan", "click", function(e) {
-    var page = "loan";
-    if ($(this).parent().is('.lc')) {
-        console.log("a1")
-        SwitchPages(page, 1); //左
-        $(".lc .on").removeClass("on")
-        $(".lc .loan").toggleClass("on")
-    } else {
-        console.log("a2")
-        SwitchPages(page, 2); //右
-        $(".rc .on").removeClass("on")
-        $(".rc .loan").toggleClass("on")
-
-    }
-    checkS2AWidth();
-});
 
 function creatProduct(evt, page) {
     var i, tabcontent, tablinks;
@@ -2848,28 +2853,6 @@ function creatProduct(evt, page) {
     evt.currentTarget.className += " active";
 }
 
-$("body").delegate(".record", "click", function(e) {
-
-    var page = "record";
-    if ($(this).parent().is('.lc')) {
-        console.log("a1")
-        SwitchPages(page, 1); //左
-        $(".lc .on").removeClass("on")
-        $(".lc .record").toggleClass("on")
-
-
-    } else {
-        console.log("a2")
-        SwitchPages(page, 2); //右
-        $(".rc .on").removeClass("on")
-        $(".rc .record").toggleClass("on")
-    }
-
-    notice();
-    checkS2AWidth();
-    tag();
-    save();
-});
 
 
 /*section-3*/

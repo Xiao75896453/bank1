@@ -958,7 +958,7 @@ div.S1Arow4 {
     flex-wrap: wrap;
     margin: 0;
     width: 450px;
-    justify-content:space-between;
+    justify-content: space-between;
 }
 
 .S2B3item {
@@ -967,11 +967,11 @@ div.S1Arow4 {
     flex-wrap: nowrap;
     height: 30px;
     margin: 5px;
-    justify-content:flex-end;
+    justify-content: flex-end;
 }
 
 .S2B3title {
-    white-space:nowrap;
+    white-space: nowrap;
 }
 
 .S2B3text {
@@ -1210,43 +1210,48 @@ div.S1Arow4 {
     /* width: 420px; */
     height: 50px;
     width: 350px;
-    justify-content:space-between;
+    justify-content: space-between;
     margin-bottom: 15px;
 }
 
 .S2B8section {
     /* height: 100px; */
-    
     /* display: inline-flex; */
     flex-wrap: wrap;
 }
 
 .S2B8item p {
     /* display: inline-flex; */
-    margin:0 10px;
+    margin: 0 10px;
 }
-.S2B8checkbox{
+
+.S2B8checkbox {
     width: 20px;
     height: 20px;
 }
+
 .S2B8item {
     /* display: inline-flex; */
     display: inline-flex;
     flex-wrap: nowrap;
-    justify-content:space-between;
+    justify-content: space-between;
     /* width: 200px; */
 }
-#S2B802{
-    justify-content:center;
+
+#S2B802 {
+    justify-content: center;
 }
+
 #S2B801,
 #S2B802,
-#S2B803{
+#S2B803 {
     width: 165px;
 }
-#S2B804{
+
+#S2B804 {
     width: 180px;
 }
+
 .S2B8item .S2B8text {
     height: 30px;
 }
@@ -1805,6 +1810,7 @@ div.S1Arow4 {
     position: absolute;
     right: 0;
     top: 0;
+    z-index: 100;
 }
 
 .indexTitle p {
