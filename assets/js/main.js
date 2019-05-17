@@ -6,6 +6,7 @@ $(document).ready(function() {
     checkS2AWidth();
     tag();
     save();
+    shrinkclick();
     window.onload = function() {
         var olink1 = document.getElementById("S1A7content1");
         var olink2 = document.getElementById("S1A7content2");
@@ -60,7 +61,7 @@ $(document).ready(function() {
 
         }
         checkS2AWidth();
-        shrinkclick()
+        shrinkclick();
     });
     $("body").delegate(".record", "click", function(e) {
 
@@ -79,7 +80,7 @@ $(document).ready(function() {
             $(".rc .record").toggleClass("on")
         }
 
-        shrinkclick();
+        // shrinkclick();
         notice();
         checkS2AWidth();
         tag();

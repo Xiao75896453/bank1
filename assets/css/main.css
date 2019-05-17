@@ -38,9 +38,11 @@ body {
 .sign-bt {
     width: 35px;
 }
+
 .analysis-bt {
     width: 55px;
 }
+
 .analysis-bt:hover,
 .sign-bt:hover {
     cursor: pointer;
@@ -65,26 +67,28 @@ body {
     width: 50px;
     position: relative;
 }
-.analysis{
-    
-    display:inline-flex;
-    align-items:flex-end;
+
+.analysis {
+    display: inline-flex;
+    align-items: flex-end;
     position: absolute;
-    justify-content:space-around;
+    justify-content: space-around;
     z-index: 2;
     width: 600px;
-    height: 0px;   
+    height: 0px;
     overflow: hidden;
     top: 200px;
     left: 200px;
     background: white;
     box-shadow: 1px 0px 5px rgb(226, 225, 225), -1px 0px 5px rgb(226, 225, 225), 0px 1px 5px rgb(226, 225, 225), 0px -1px 5px rgb(226, 225, 225);
 }
-.analysiscol{
+
+.analysiscol {
     margin: 30px 20px;
     text-align: center;
     display: none;
 }
+
 #prompt:hover,
 .S2notice:hover,
 .savebt:hover,
@@ -1788,7 +1792,7 @@ div.S1Arow4 {
 
 
 /* .content {
-    position: relative;
+    padding-top: 3.5rem;
 } */
 
 .indexBar {
