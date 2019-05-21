@@ -2902,15 +2902,7 @@ $("#S3r1i8").click(function() {
 
 });
 
-$("").click(function() {
-    $('.left_div').toggleClass("h-87");
-    $('.right_div').toggleClass("h-87");
-    $("#S3row2").slideToggle("slow");
 
-    S3deg += 180;
-    $(this).css('transform', 'rotate(' + S3deg + 'deg)');
-
-});
 
 
 
