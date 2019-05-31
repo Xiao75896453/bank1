@@ -459,24 +459,24 @@
                                                     <div class="S2B3colume" id="S2B3colume1">
                                                         <div class="S2B3item" id="S2B301">
                                                             <p class="S2B3title">貸款產品</p>
-                                                            <input class="S2B3text" type="text">
+                                                            <input class="S2B3text" type="text" name="product">
                                                         </div>
                                                         <div class="S2B3item" id="S2B302">
                                                             <p class="S2B3title">提供保證人</p>
                                                         </div>
                                                         <div class="S2B3item" id="S2B303">
                                                             <p class="S2B3title">總期數</p>
-                                                            <input class="S2B3text" type="text">
+                                                            <input class="S2B3text " type="text" name="SumPeriod">
                                                         </div>
                                                     </div>
                                                     <div class="S2B3colume" id="S2B3colume2">
                                                         <div class="S2B3item" id="S2B304">
                                                             <p class="S2B3title">金額</p>
-                                                            <input class="S2B3text" type="text">
+                                                            <input class="S2B3text" type="text" name="value">
                                                         </div>
                                                         <div class="S2B3item" id="S2B305">
                                                             <p class="S2B3title">可使用額度</p>
-                                                            <input class="S2B3text" type="text">
+                                                            <input class="S2B3text" type="text" name="accountBalence">
                                                         </div>
                                                     </div>
                                                     <div class="S2noticeText" id="S2BnoticeText">
@@ -619,39 +619,46 @@
                                                     <div class="S2B8colume d-flex" id="S2B8colume1">
                                                         <div class="S2B8item" id="S2B801">
                                                             <p class="S2B8title">貸款產品</p>
-                                                            <input class="S2B8content1 S2B8text" type="text">
+                                                            <input class="S2B8content1 S2B8text" type="text"
+                                                                name="product2">
                                                         </div>
                                                         <div class="S2B8item" id="S2B802">
                                                             <p class="S2B8title">連保</p>
 
-                                                            <input type="checkbox" class="S2B8checkbox">
+                                                            <input type="checkbox" class="S2B8checkbox"
+                                                                name="insurance">
 
                                                             <p class="S2B8title">一般</p>
-                                                            <input type="checkbox" class="S2B8checkbox">
+                                                            <input type="checkbox" class="S2B8checkbox" name="common">
                                                         </div>
                                                     </div>
                                                     <div class="S2B8colume d-flex" id="S2B8colume3">
                                                         <div class="S2B8item" id="S2B803">
                                                             <p class="S2B8title">金額</p>
-                                                            <input class="S2B8content S2B8text" type="text">
+                                                            <input class="S2B8content S2B8text" type="text"
+                                                                name="value2">
                                                         </div>
                                                         <div class="S2B8item" id="S2B804">
                                                             <p class="S2B8title">可使用額度</p>
-                                                            <input class="S2B8content S2B8text" type="text">
+                                                            <input class="S2B8content S2B8text" type="text"
+                                                                name="accountBalence2">
                                                         </div>
                                                     </div>
                                                     <div class="S2B8colume d-flex flex-nowrap" id="S2B8colume4">
                                                         <div class="S2B8item" id="S2B805">
                                                             <p class="S2B8title">總期數</p>
-                                                            <input class="S2B8content S2B8text" type="text">
+                                                            <input class="S2B8content S2B8text" type="text"
+                                                                name="SumPeriod2">
                                                         </div>
                                                         <div class="S2B8item" id="S2B806">
                                                             <p class="S2B8title">展期次數</p>
-                                                            <input class="S2B8content S2B8text" type="text">
+                                                            <input class="S2B8content S2B8text" type="text"
+                                                                name="counts">
                                                         </div>
                                                         <div class="S2B8item" id="S2B807">
                                                             <p class="S2B8title">利率</p>
-                                                            <input class="S2B8content S2B8text" type="text">
+                                                            <input class="S2B8content S2B8text" type="text"
+                                                                name="interest2">
                                                         </div>
 
                                                     </div>
@@ -695,7 +702,7 @@
                                                         class="tb-S2B8section2 table table-bordered dt-responsive nowrap">
                                                         <tr>
                                                             <th>
-                                                                <p>第</p><input type="text">
+                                                                <p>第</p><input type="text" name="fromPeriod">
                                                                 <p>期起</p>
                                                             </th>
                                                             <th>
@@ -725,8 +732,8 @@
                                                 </div>
 
                                                 <div class="S2B9columne" id="S2B9columne2">
-                                                    <textarea class="S2B9text" id="S2tags" cols="50"
-                                                        rows="4"></textarea>
+                                                    <textarea class="S2B9text" id="S2tags" cols="50" rows="4"
+                                                        name="description">2133</textarea>
                                                 </div>
                                             </div>
                                         </section>
@@ -814,22 +821,22 @@
                                                 <div class="S2D3colume" id="S2D3colume1">
                                                     <div class="S2D3item2" id="S2D301">
                                                         <p class="S2D3title">借貸人月收入</p><input class="S2D3text"
-                                                            type="text">
+                                                            type="text" name="income_mon">
                                                     </div>
                                                     <div class="S2D3item2" id="S2D302">
-                                                        <p class="S2D3title">建議額度</p><input class="S2D3text"
-                                                            type="text">
+                                                        <p class="S2D3title">建議額度</p><input class="S2D3text" type="text"
+                                                            name="money_recommend">
                                                     </div>
                                                 </div>
                                                 <div class="S2D3colume" id="S2D3colume2">
                                                     <div class="S2D3item2" id="S2D303">
                                                         <p class="S2D3title">本次核貸金額加計無擔外債為月收入金額約</p><input
-                                                            class="S2D3text" type="text">
+                                                            class="S2D3text" type="text" name="Loan_incomeMon_times">
                                                         <p class="S2D3unit">倍</p>
                                                     </div>
                                                     <div class="S2D3item2" id="S2D304">
                                                         <p class="S2D3title">全體金融機構之無擔飽受信總餘額(含本次)為年所得之</p><input
-                                                            class="S2D3text" type="text">
+                                                            class="S2D3text" type="text" name="Loan_incomeYear_per">
                                                         <p class="S2D3unit">%</p>
                                                     </div>
                                                 </div>
@@ -837,28 +844,28 @@
                                                 <div class="S2D3colume" id="S2D3colume3">
                                                     <div class="S2D3item2" id="S2D305">
                                                         <p class="S2D3title">本次貸款支出調整為</p><input class="S2D3text"
-                                                            type="text">
+                                                            type="text" name="pay_afterAdjust">
                                                     </div>
                                                     <div class="S2D3item2" id="S2D306">
                                                         <p class="S2D3title">致當月結餘金額為</p><input class="S2D3text"
-                                                            type="text">
+                                                            type="text" name="benefit">
                                                     </div>
                                                 </div>
 
                                                 <div class="S2D3colume" id="S2D3colume4">
                                                     <div class="S2D3item3" id="S2D307">
                                                         <p class="S2D3title">本次貸款支出/總月收入</p><input class="S2D3text"
-                                                            type="text">
+                                                            type="text" name="thisExpand_monPer">
                                                         <p class="S2D3unit">%</p>
                                                     </div>
                                                     <div class="S2D3item3" id="S2D308">
                                                         <p class="S2D3title">總貸款支出/總月收入</p><input class="S2D3text"
-                                                            type="text">
+                                                            type="text" name="allExpand_monPer">
                                                         <p class="S2D3unit">%</p>
                                                     </div>
                                                     <div class="S2D3item3" id="S2D309">
                                                         <p class="S2D3title">總月支出/總月收入</p><input class="S2D3text"
-                                                            type="text">
+                                                            type="text" name="allMonExpand_monPer">
                                                         <p class="S2D3unit">%</p>
                                                     </div>
                                                 </div>
@@ -1701,6 +1708,7 @@
                         </div>
 
                     </div>
+
 
                     <div id="side-2" class="col off">
                         <nav>
