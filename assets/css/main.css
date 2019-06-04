@@ -1896,7 +1896,7 @@ div.S1Arow4 {
 
 #S3row2 {
     /* background-size: contain; */
-    background-image: url(../media/nav-bluebar.png);
+    background-image: url(../media/S3r2-background.png);
     background-size: 100% 5.26vh;
     background-repeat: no-repeat;
     position: relative;
@@ -1910,11 +1910,10 @@ div.S1Arow4 {
     vertical-align: middle;
     line-height: 6.53vh;
     margin: 0 2rem;
+    display: inline-flex;
 }
 
 .S3r1item1 p {
-    display: inline-block;
-    font-size: 20px;
     /* font-weight: bold; */
 }
 
@@ -1925,13 +1924,15 @@ div.S1Arow4 {
 .navItem {
     cursor: pointer;
     margin: 0 -1px;
-    background-image: url(../media/navBar-bg.png);
+    /* background-image: url(../media/navBar-bg.png);*/
     background-size: 100% 50px;
     background-repeat: no-repeat;
     position: relative;
     vertical-align: middle;
     line-height: 6.53vh;
-    padding: 3px 8px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    display: inline-flex;
 }
 
 .navItem-last {
@@ -1945,28 +1946,33 @@ div.S1Arow4 {
 }
 
 .navItem-last img {
-    width: 2rem;
+    width: 1rem;
+    display: inline-block;
 }
 
-.navItem p {
+.navItem img {
+    width: 1rem;
     display: inline-block;
-    font-size: 16px;
+}
+
+.S3r2Item {
+    display: inline-flex;
 }
 
 .S3r2item {
-    margin: 0 0 0 1rem;
+    padding: 0 1rem 0 1rem;
     position: relative;
 }
 
 .s3r2-1:hover,
-.S3r2Item:hover {
+.S3r2item:hover {
     cursor: pointer;
     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+9,ffffff+100&0+17,0.25+49,0+100 */
-    background: -moz-linear-gradient(top, rgba(255, 255, 255, 0) 9%, rgba(255, 255, 255, 0) 17%, rgba(255, 255, 255, 0.25) 49%, rgba(255, 255, 255, 0) 100%);
+    background: -moz-linear-gradient(top, rgba(255, 255, 255, 1) 9%, rgba(255, 255, 255, 0) 10%, rgba(255, 255, 255, 0) 100%);
     /* FF3.6-15 */
-    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 0) 9%, rgba(255, 255, 255, 0) 17%, rgba(255, 255, 255, 0.25) 49%, rgba(255, 255, 255, 0) 100%);
+    background: -webkit-linear-gradient(top, rgba(255, 255, 255, 1) 9%, rgba(255, 255, 255, 0) 10%, rgba(255, 255, 255, 0) 100%);
     /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 9%, rgba(255, 255, 255, 0) 17%, rgba(255, 255, 255, 0.25) 49%, rgba(255, 255, 255, 0) 100%);
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 9%, rgba(255, 255, 255, 0) 10%, rgba(255, 255, 255, 0) 100%);
     /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#00ffffff', GradientType=0);
     /* IE6-9 */
@@ -1976,7 +1982,8 @@ div.S1Arow4 {
     display: inline-block;
 }
 
-.S3r2item img {
+.S3r2Item img {
+    height: 100%;
     width: 1rem;
     display: inline-block;
 }
@@ -2007,4 +2014,3 @@ div.S1Arow4 {
 .h-87 {
     height: 87.6vh;
 }
-
